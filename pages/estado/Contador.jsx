@@ -8,6 +8,7 @@ export default function Contador(){
     const haldleClickRemove = () => {
         setContador(contador => contador - 1)
     }
+    
     return (
         <div style={{
             display:"flex",
